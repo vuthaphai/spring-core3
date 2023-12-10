@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class BeanConfig {
 
 //    @Bean(name = "myCalculator")
-    @Bean(autow)
+    @Bean
     Calculator getCalculator(){
 
         return new Calculator();
