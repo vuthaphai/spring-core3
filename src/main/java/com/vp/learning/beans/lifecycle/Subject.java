@@ -1,21 +1,29 @@
 package com.vp.learning.beans.lifecycle;
 
-import org.springframework.beans.factory.config.BeanDefinition;
-import org.springframework.context.annotation.Lazy;
-import org.springframework.context.annotation.Scope;
+import lombok.Getter;
+import lombok.Setter;
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
-import javax.annotation.PreDestroy;
-
+@Setter
+@Getter
 @Component
 //@Lazy
 //@Scope(value = BeanDefinition.SCOPE_PROTOTYPE)
 public class Subject {
 
-    private String title;
+    private String title ;
 
-//    @PostConstruct
+    public Subject(){}
+
+    public Subject(String title) {
+        this.title = title;
+    }
+
+    public String toString(){
+        return this.title;
+    }
+
+    //    @PostConstruct
     public void init() {
         System.out.println("Subject was created");
     }

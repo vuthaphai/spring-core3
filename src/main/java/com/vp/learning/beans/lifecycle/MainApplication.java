@@ -13,6 +13,10 @@ public class MainApplication {
                 .filter(n->!n.contains("springframework"))
                 .forEach(System.out::println);
 
+        Student student = context.getBean(Student.class);
+        student.displayColors();
+        student.displaySubject();
+
 //        for (String bean: beans){
 //            System.out.println(bean);
 //        }

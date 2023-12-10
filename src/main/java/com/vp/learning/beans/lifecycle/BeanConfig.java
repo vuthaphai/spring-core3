@@ -6,6 +6,8 @@ import com.vp.learning.component.scan.ClassC;
 import com.vp.learning.component.scan.ComScan;
 import org.springframework.context.annotation.*;
 
+import java.util.List;
+
 @Configuration
 //@ComponentScan(basePackages = {"com.vp.learning.beans.lifecycle;com.vp.learning.component.scan"})
 //@ComponentScan(basePackageClasses = { IndexModel.class, ComScan.class}, includeFilters = @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = { ClassB.class, ClassC.class}), excludeFilters = @ComponentScan.Filter(classes = { Student.class}, type = FilterType.ASSIGNABLE_TYPE))
@@ -29,5 +31,17 @@ public class BeanConfig {
     }
 
 */
+
+    @Bean
+    public String[] colors() {
+        return new String[] { "white", "yellow", "red"};
+    }
+
+    @Bean
+    public List<Subject> subjects() {
+        return List.of(new Subject("Math"),
+                new Subject("English"),
+                new Subject("Khmer"));
+    }
 
 }
