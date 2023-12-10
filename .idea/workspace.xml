@@ -5,11 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c76cadc-93ff-4d8a-867d-35293fa20ee0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/BeanConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/MainApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/HighSchoolStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/IndexModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/com/vp/learning/custom/annotations/Vutha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/component/scan/ClassA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/component/scan/ClassB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/component/scan/ClassC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/component/scan/ComScan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/BeanConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/BeanConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vp/learning/beans/lifecycle/Subject.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +26,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -47,7 +56,7 @@
     "Application.com.vp.learning.beans.lifecycle.MainApplication.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "feaute/component-scan",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/01-engine2/backend/java/spring-core2"
